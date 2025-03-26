@@ -1,24 +1,39 @@
-# frontend-produtos
+# 🛍️ Frontend - Gerenciador de Produtos
 
-## Project setup
+Este é o frontend de uma aplicação para gerenciar produtos, construída com Vue.js. Ele permite listar, criar, editar e excluir produtos de um catálogo.
+
+## 🚀 Tecnologias Utilizadas
+
+- Vue.js 3 ⚡
+- Vue Router 🚏
+- Axios 🌐
+
+## 📂 Estrutura do Projeto
+
 ```
-npm install
+src/
+│-- assets/
+│-- components/
+│-- router/
+│   ├── index.js  # Configuração das rotas
+│-- services/
+│   ├── api.js  # Comunicação com o backend via Axios
+│-- views/
+│   ├── Criar.vue  # Tela de criação de produtos
+│   ├── Editar.vue  # Tela de edição de produtos
+│   ├── Produtos.vue  # Listagem de produtos
+│-- main.js  # Arquivo principal da aplicação
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## ▶️ Como Rodar o Projeto
 
-### Compiles and minifies for production
-```
-npm run build
-```
+1. Instale as dependências:  
+   ```bash
+   npm install
+   ```
+2. Inicie o servidor de desenvolvimento:  
+   ```bash
+   npm run serve
+   ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+O frontend estará disponível em `http://localhost:8080/`. 🚀
